@@ -34,6 +34,7 @@ print("Let's play rock, paper and scissors")
 user_choice = int(input("Choose 0 for rock, 1 for paper and 2 for scissors\n"))
 
 computer_choice = random.randint(0,2)
+
 print("Your Choice:")
 print(choice[user_choice])
 print("Computer Choice:")
